@@ -23,4 +23,4 @@ O layout é responsivo, moderno e com fundo estilizado em OLED preto para dar aq
 - **JavaScript** (em breve para interações extras ⚡)
 
 ## 🎨 Preview
-👉 [Clique aqui para acessar meu portfólio online](https://app.netlify.com/projects/matheus-portfolio-uninter/deploys/67424b15969e40c10a2ea5de) 
+👉 [Clique aqui para acessar meu portfólio online](https://matheus-portfolio-uninter.netlify.app) 
