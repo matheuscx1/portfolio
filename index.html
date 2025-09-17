@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#sobre">Sobre</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre -->
+    <main class="main-content">
+        <section id="sobre" class="sobre">
+            <h2>Sobre mim</h2>
+            <p>Me Chamo Matheus, tenho 22 anos. Estou cursando Análise e Desenvolvimento de Sistemas, onde venho me aprofundando em diversas ferramentas e frameworks. Atualmente, estou focado no desenvolvimento com Angular, Java, Spring Boot e MySQL, buscando aprimorar minhas habilidades para construir aplicações robustas e eficientes.</p>
+            <h2>Hobbies</h2>
+            <p>Ler livros, assistir filmes e séries.</p>
+        </section>
+
+        <!-- Seção Formação -->
+        <section id="formacao" class="formacao">
+            <h2>Formação</h2>
+            <div class="formacao-container">
+                <div class="curso">
+                    <h3>Analise e Desenvolvimento de Sistemas</h3>
+                    <p>Instituição: Uninter</p>
+                    <p>Início: Maio de 2024</p>
+                </div>
+                <div class="curso">
+                    <h3>Idiomas</h3>
+                    <p>Português: Nativo</p>
+                    <p>Inglês: Intermediário</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio -->
+        <section id="portfolio" class="portfolio">
+            <h2>Portfólio</h2>
+            <div class="portfolio-container">
+                <!-- Projeto 1 -->
+                <div class="portfolio-item">
+                    <h3 class="portfolio-title">To Do List Em Angular</h3>
+                    <p>Projeto que gerencia tarefas do dia a dia</p>
+                    <img src="images/072120-ToDoList-Blog.png" alt="Foto ilustrativa" class="portfolio-img">
+                    <a href="https://angular-todo-list55.netlify.app/" target="_blank" class="portfolio-link">Acesse o site</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="section contato">
+            <h2 class="section-title">Contato</h2>
+            <p class="contato-description">
+                Entre em contato para conversarmos sobre algum projeto!
+            </p>
+            <form action="matheus@gmail.com" method="post" enctype="text/plain" class="contato-form">
+                <div class="form-group">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" id="nome" name="nome" required class="form-input" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" id="email" name="email" required class="form-input" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required class="form-input" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Matheus. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
